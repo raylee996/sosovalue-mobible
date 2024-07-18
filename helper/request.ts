@@ -105,6 +105,9 @@ axiosInstance.interceptors.response.use(
     if (err.response?.status !== 200) {
       // error(err.message);
     }
+    
+    console.log('err.response?', err.response);
+    
     if (isBrowser && err.code === AxiosError.ECONNABORTED && err.config.onRequestTimeout) {
       err.config.onRequestTimeout();
     }
