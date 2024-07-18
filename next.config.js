@@ -10,7 +10,14 @@ const { i18n } = require("./next-i18next.config.js");
 const withPWA = require("next-pwa")({
   dest: "public",
   disable: process.env.NODE_ENV === "development",
-  reloadOnOnline: false
+  reloadOnOnline: false,
+  fallbacks: {
+    document: '/_offline',
+    audio: '',
+    font: '',
+    image: '',
+    video: ''
+  }
 });
 
 // ANALYZE=true npm run build
