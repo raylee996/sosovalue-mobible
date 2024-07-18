@@ -108,7 +108,12 @@ axiosInstance.interceptors.response.use(
 
     console.log('err.?', err);
     
-    if (isBrowser && err.code === AxiosError.ECONNABORTED && err.config.onRequestTimeout) {
+    if (
+      isBrowser &&
+      (err.code === AxiosError.ECONNABORTED ||
+        err.code === AxiosError.ERR_NETWORK) &&
+      err.config.onRequestTimeout
+    ) {
       err.config.onRequestTimeout();
     }
     return Promise.reject(err);
