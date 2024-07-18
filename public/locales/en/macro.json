@@ -1,0 +1,38 @@
+{
+  "Calendar": "Calendar",
+  "Date": "Date",
+  "Actual": "Actual",
+  "Forecast": "Forecast",
+  "Previous": "Previous",
+
+  "Flash": "Flash",
+  "Articles": "Articles",
+  "@Source": "@Source",
+  "No results": "No results",
+
+  "DXY": "DXY",
+  "NAQ": "NAQ",
+  "NQ1!": "NQ1!",
+  "ES1!": "ES1!",
+
+  "GC1!": "GC1!",
+  "CL1!": "CL1!",
+  "HG1!": "HG1!",
+  "BTC!": "BTC!",
+
+  "FedWatch tool": "FedWatch tool",
+  "SOFR": "SOFR",
+  "TGCR": "TGCR",
+  "BGCR": "BGCR",
+  "ON RRP": "ON RRP",
+  "Release date": "Release date",
+  "FedWatchTool-Actual": "Actual",
+  "FedWatchTool-Previous": "Previous",
+
+  "FedWatch-Desc": "Target Rate Probabilities for 1 Nov 2023 Fed Meeting",
+  "TARGET RATE (BPS)": "TARGET RATE (BPS)",
+  "PROBABILITY(%)": "PROBABILITY(%)",
+  "FOMC Target Rate Probabilities": "FOMC Target Rate Probabilities",
+  "MEETING DATE": "MEETING DATE",
+  "Update time": "Update time"
+}

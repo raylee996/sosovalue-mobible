@@ -1,0 +1,10 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <g id="Group">
+    <path id="Vector" d="M1.66675 8.48535H18.3334" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Vector_2" d="M16.8183 18.3341H3.1819C2.34478 18.3341 1.66675 17.6553 1.66675 16.819V4.69777C1.66675 3.86065 2.34554 3.18262 3.1819 3.18262H16.8183C17.6554 3.18262 18.3334 3.86141 18.3334 4.69777V16.819C18.3334 17.6553 17.6546 18.3341 16.8183 18.3341Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Vector_3" d="M5.45459 1.66699V5.45487" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Vector_4" d="M14.5457 1.66699V5.45487" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Vector_5" d="M13.4091 15.3035C14.4551 15.3035 15.303 14.4556 15.303 13.4096C15.303 12.3636 14.4551 11.5156 13.4091 11.5156C12.3631 11.5156 11.5151 12.3636 11.5151 13.4096C11.5151 14.4556 12.3631 15.3035 13.4091 15.3035Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

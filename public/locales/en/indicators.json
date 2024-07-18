@@ -1,0 +1,18 @@
+{
+  "Daily": "Daily",
+  "Weekly": "Weekly",
+  "Monthly": "Monthly",
+  "Yearly": "Yearly",
+
+  "Charts": "Charts",
+  "Excel": "Excel",
+  "Chart mode supports comparing 2 indexes.": "Chart mode supports comparing 2 indexes.",
+  "Excel mode supports comparing 5 indexes.": "Excel mode supports comparing 5 indexes.",
+
+  "Please select at least one indicator！": "Please select at least one indicator！",
+  "Relevance": "Relevance",
+  "Selected": "Selected",
+  "Time range": "Time range",
+  "Export": "Export",
+  "Tndicators-tip": "Please select the index to be displayed on the left side."
+}

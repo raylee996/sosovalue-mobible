@@ -1,0 +1,10 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<g id="Vector">
+<path d="M13.2589 3.92188L16.0779 6.74081Z" fill="currentColor"/>
+<path d="M13.2589 3.92188L16.0779 6.74081" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Vector_2" d="M14.9302 2.25206L7.31961 9.86267L6.21204 13.7892L10.1386 12.6816L17.7492 5.071C18.5279 4.29221 18.5279 3.03085 17.7492 2.25206C16.9711 1.47327 15.709 1.47327 14.9302 2.25206Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M6.96966 5.45703H4.69693C3.02344 5.45703 1.66663 6.81385 1.66663 8.48733V15.3055C1.66663 16.979 3.02344 18.3358 4.69693 18.3358H11.5151C13.1886 18.3358 14.5454 16.979 14.5454 15.3055V13.0328" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

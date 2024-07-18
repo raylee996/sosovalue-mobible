@@ -1,0 +1,29 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <g id="Custom Logos">
+    <g id="Vector">
+      <path d="M7.36847 2.10526H4.21058L0.526367 6.8421H5.78953L7.36847 2.10526Z" fill="var(--accent-600)"/>
+      <path d="M7.36847 2.10526H4.21058L0.526367 6.8421H5.78953L7.36847 2.10526Z" fill="white" fill-opacity="0.4"/>
+    </g>
+    <g id="Vector_2">
+      <path d="M19.4737 6.8421L15.7895 2.10526H12.6316L14.2105 6.8421H19.4737Z" fill="var(--accent-600)"/>
+      <path d="M19.4737 6.8421L15.7895 2.10526H12.6316L14.2105 6.8421H19.4737Z" fill="black" fill-opacity="0.1"/>
+    </g>
+    <g id="Vector_3">
+      <path d="M14.2105 6.84211H19.4737L10 17.8947L14.2105 6.84211Z" fill="var(--accent-600)"/>
+      <path d="M14.2105 6.84211H19.4737L10 17.8947L14.2105 6.84211Z" fill="black" fill-opacity="0.2"/>
+    </g>
+    <g id="Vector_4">
+      <path d="M5.78953 6.84211H0.526367L10.0001 17.8947L5.78953 6.84211Z" fill="var(--accent-600)"/>
+      <path d="M5.78953 6.84211H0.526367L10.0001 17.8947L5.78953 6.84211Z" fill="white" fill-opacity="0.3"/>
+    </g>
+    <g id="Vector_5">
+      <path d="M7.36838 2.10526L5.78943 6.8421H14.2105L12.6315 2.10526H7.36838Z" fill="var(--accent-600)"/>
+      <path d="M7.36838 2.10526L5.78943 6.8421H14.2105L12.6315 2.10526H7.36838Z" fill="white" fill-opacity="0.2"/>
+    </g>
+    <g id="Vector_6">
+      <path d="M9.99996 17.8947L5.78943 6.84211H14.2105L9.99996 17.8947Z" fill="var(--accent-600)"/>
+      <path d="M9.99996 17.8947L5.78943 6.84211H14.2105L9.99996 17.8947Z" fill="white" fill-opacity="0.1"/>
+    </g>
+  </g>
+</svg>

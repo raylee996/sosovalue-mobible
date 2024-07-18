@@ -1,0 +1,476 @@
+[
+  {
+    "mode": {
+      "name": "light",
+      "id": "511:0"
+    },
+    "color": [
+      {
+        "name": "background/accent-disabled (300)",
+        "color": "#ffb39f",
+        "var": "Orange/300",
+        "rootAlias": "Orange/300"
+      },
+      {
+        "name": "background/accent-hover (700 -> 600)",
+        "color": "#d9431b",
+        "var": "Orange/700",
+        "rootAlias": "Orange/700"
+      },
+      {
+        "name": "background/background-primary (White -> 900)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "background/background-secondary (White -> 700)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "background/brand-accent (600 -> 600)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "background/clean (0%)",
+        "color": "#ffffff00",
+        "var": "",
+        "rootAlias": ""
+      },
+      {
+        "name": "background/dropdown (White -> 800)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "background/hover (50 -> 700)",
+        "color": "#f5f5f5",
+        "var": "Grey/50",
+        "rootAlias": "Grey/50"
+      },
+      {
+        "name": "background/hover (50 -> 800)",
+        "color": "#f5f5f5",
+        "var": "Grey/50",
+        "rootAlias": "Grey/50"
+      },
+      {
+        "name": "background/hover (50 -> 900)",
+        "color": "#f5f5f5",
+        "var": "Grey/50",
+        "rootAlias": "Grey/50"
+      },
+      {
+        "name": "background/shadow (100 -> 700)",
+        "color": "#e5e5e5",
+        "var": "Grey/100",
+        "rootAlias": "Grey/100"
+      },
+      {
+        "name": "background/shadow (25 -> 800)",
+        "color": "#fafafa",
+        "var": "Grey/25",
+        "rootAlias": "Grey/25"
+      },
+      {
+        "name": "background/tooltip (800)",
+        "color": "#171717",
+        "var": "Grey/800",
+        "rootAlias": "Grey/800"
+      },
+      {
+        "name": "background/white",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "background/white (white)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "border/accent (600 -> 600)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "border/accent 2 (600 -> White)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "border/primary (100 -> 700)",
+        "color": "#e5e5e5",
+        "var": "Grey/100",
+        "rootAlias": "Grey/100"
+      },
+      {
+        "name": "border/secondary (50 -> 800",
+        "color": "#f5f5f5",
+        "var": "Grey/50",
+        "rootAlias": "Grey/50"
+      },
+      {
+        "name": "color/accent-back",
+        "color": "#fff3f0",
+        "var": "Orange/50",
+        "rootAlias": "Orange/50"
+      },
+      {
+        "name": "color/color-error-back",
+        "color": "#fff1f2",
+        "var": "Red/50",
+        "rootAlias": "Red/50"
+      },
+      {
+        "name": "color/error (600 -> 500)",
+        "color": "#da2e21",
+        "var": "Red/600",
+        "rootAlias": "Red/600"
+      },
+      {
+        "name": "color/info",
+        "color": "#1d4ed8",
+        "var": "Blue/600",
+        "rootAlias": "Blue/600"
+      },
+      {
+        "name": "color/logo",
+        "color": "#313131",
+        "var": "",
+        "rootAlias": ""
+      },
+      {
+        "name": "color/success (600 -> 500)",
+        "color": "#089554",
+        "var": "Green/600",
+        "rootAlias": "Green/600"
+      },
+      {
+        "name": "color/sucess-back",
+        "color": "#edfef4",
+        "var": "Green/50",
+        "rootAlias": "Green/50"
+      },
+      {
+        "name": "color/warning (600 -> 500)",
+        "color": "#fbb000",
+        "var": "Yellow/600",
+        "rootAlias": "Yellow/600"
+      },
+      {
+        "name": "icon/accent (600 -> White)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "icon/accent 2(600 -> 100)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "icon/placeholder (500 -> 300)",
+        "color": "#525252",
+        "var": "Grey/500",
+        "rootAlias": "Grey/500"
+      },
+      {
+        "name": "icon/primary (800 -> 50)",
+        "color": "#171717",
+        "var": "Grey/800",
+        "rootAlias": "Grey/800"
+      },
+      {
+        "name": "icon/secondary (700 -> 100)",
+        "color": "#262626",
+        "var": "Grey/700",
+        "rootAlias": "Grey/700"
+      },
+      {
+        "name": "text/accent (600)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "text/active (600 > White)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "text/placeholder (400 -> 300)",
+        "color": "#737373",
+        "var": "Grey/400",
+        "rootAlias": "Grey/400"
+      },
+      {
+        "name": "text/primary (900 -> White)",
+        "color": "#0a0a0a",
+        "var": "Grey/900",
+        "rootAlias": "Grey/900"
+      },
+      {
+        "name": "text/secondary (500 -> 300)",
+        "color": "#525252",
+        "var": "Grey/500",
+        "rootAlias": "Grey/500"
+      },
+      {
+        "name": "text/white (White)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      }
+    ],
+    "number": []
+  },
+  {
+    "mode": {
+      "name": "dark",
+      "id": "511:1"
+    },
+    "color": [
+      {
+        "name": "background/accent-disabled (300)",
+        "color": "#fff3f0",
+        "var": "color/accent-back",
+        "rootAlias": "Orange/50"
+      },
+      {
+        "name": "background/accent-hover (700 -> 600)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "background/background-primary (White -> 900)",
+        "color": "#0a0a0a",
+        "var": "Grey/900",
+        "rootAlias": "Grey/900"
+      },
+      {
+        "name": "background/background-secondary (White -> 700)",
+        "color": "#262626",
+        "var": "Grey/700",
+        "rootAlias": "Grey/700"
+      },
+      {
+        "name": "background/brand-accent (600 -> 600)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "background/clean (0%)",
+        "color": "#ffffff00",
+        "var": "",
+        "rootAlias": ""
+      },
+      {
+        "name": "background/dropdown (White -> 800)",
+        "color": "#171717",
+        "var": "Grey/800",
+        "rootAlias": "Grey/800"
+      },
+      {
+        "name": "background/hover (50 -> 700)",
+        "color": "#262626",
+        "var": "Grey/700",
+        "rootAlias": "Grey/700"
+      },
+      {
+        "name": "background/hover (50 -> 800)",
+        "color": "#171717",
+        "var": "Grey/800",
+        "rootAlias": "Grey/800"
+      },
+      {
+        "name": "background/hover (50 -> 900)",
+        "color": "#0a0a0a",
+        "var": "Grey/900",
+        "rootAlias": "Grey/900"
+      },
+      {
+        "name": "background/shadow (100 -> 700)",
+        "color": "#262626",
+        "var": "Grey/700",
+        "rootAlias": "Grey/700"
+      },
+      {
+        "name": "background/shadow (25 -> 800)",
+        "color": "#171717",
+        "var": "Grey/800",
+        "rootAlias": "Grey/800"
+      },
+      {
+        "name": "background/tooltip (800)",
+        "color": "#171717",
+        "var": "Grey/800",
+        "rootAlias": "Grey/800"
+      },
+      {
+        "name": "background/white",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "background/white (white)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "border/accent (600 -> 600)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "border/accent 2 (600 -> White)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "border/primary (100 -> 700)",
+        "color": "#262626",
+        "var": "Grey/700",
+        "rootAlias": "Grey/700"
+      },
+      {
+        "name": "border/secondary (50 -> 800",
+        "color": "#171717",
+        "var": "Grey/800",
+        "rootAlias": "Grey/800"
+      },
+      {
+        "name": "color/accent-back",
+        "color": "#571908",
+        "var": "",
+        "rootAlias": ""
+      },
+      {
+        "name": "color/color-error-back",
+        "color": "#381513",
+        "var": "",
+        "rootAlias": ""
+      },
+      {
+        "name": "color/error (600 -> 500)",
+        "color": "#f24237",
+        "var": "Red/500",
+        "rootAlias": "Red/500"
+      },
+      {
+        "name": "color/info",
+        "color": "#2563eb",
+        "var": "Blue/500",
+        "rootAlias": "Blue/500"
+      },
+      {
+        "name": "color/logo",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "color/success (600 -> 500)",
+        "color": "#18b36b",
+        "var": "Green/500",
+        "rootAlias": "Green/500"
+      },
+      {
+        "name": "color/sucess-back",
+        "color": "#1a2c26",
+        "var": "",
+        "rootAlias": ""
+      },
+      {
+        "name": "color/warning (600 -> 500)",
+        "color": "#ffc133",
+        "var": "Yellow/500",
+        "rootAlias": "Yellow/500"
+      },
+      {
+        "name": "icon/accent (600 -> White)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "icon/accent 2(600 -> 100)",
+        "color": "#e5e5e5",
+        "var": "Grey/100",
+        "rootAlias": "Grey/100"
+      },
+      {
+        "name": "icon/placeholder (500 -> 300)",
+        "color": "#a3a3a3",
+        "var": "Grey/300",
+        "rootAlias": "Grey/300"
+      },
+      {
+        "name": "icon/primary (800 -> 50)",
+        "color": "#f5f5f5",
+        "var": "Grey/50",
+        "rootAlias": "Grey/50"
+      },
+      {
+        "name": "icon/secondary (700 -> 100)",
+        "color": "#e5e5e5",
+        "var": "Grey/100",
+        "rootAlias": "Grey/100"
+      },
+      {
+        "name": "text/accent (600)",
+        "color": "#ff4f20",
+        "var": "Orange/600",
+        "rootAlias": "Orange/600"
+      },
+      {
+        "name": "text/active (600 > White)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "text/placeholder (400 -> 300)",
+        "color": "#a3a3a3",
+        "var": "Grey/300",
+        "rootAlias": "Grey/300"
+      },
+      {
+        "name": "text/primary (900 -> White)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      },
+      {
+        "name": "text/secondary (500 -> 300)",
+        "color": "#a3a3a3",
+        "var": "Grey/300",
+        "rootAlias": "Grey/300"
+      },
+      {
+        "name": "text/white (White)",
+        "color": "#ffffff",
+        "var": "Base/White",
+        "rootAlias": "Base/White"
+      }
+    ],
+    "number": []
+  }
+]

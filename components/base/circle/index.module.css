@@ -1,0 +1,49 @@
+.circle-warp {
+  --track-width: 3px;
+  --size: 28px;
+  --track-color: var(--primary-100-700);
+  --fill-color: var(--accent-600-600);
+
+  --percent: 0;
+  --pi: 3.14159265358979;
+  --radius: calc(var(--size) / 2 - var(--track-width) / 2);
+  --circumference: calc(var(--radius) * var(--pi) * 2);
+
+  display: inline-block;
+  width: var(--size);
+  height: var(--size);
+}
+
+.circle-child {
+  stroke-width: var(--track-width);
+  r: var(--radius);
+  cx: calc(var(--size) / 2);
+  cy: calc(var(--size) / 2);
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.circle-track {
+  stroke: var(--track-color);
+}
+
+.circle-fill {
+  transition: stroke-dashoffset 0.35s;
+  stroke: var(--fill-color);
+  stroke-dasharray: var(--circumference);
+  stroke-dashoffset: calc(var(--circumference) * (1 - var(--percent) / 100));
+  stroke-linecap: round;
+}
+
+/* .circle-point {
+  width: calc(var(--track-width) * 2);
+  height: calc(var(--track-width) * 2);
+  position: absolute;
+}
+
+.circle-point circle {
+  cx: var(--track-width);
+  cy: var(--track-width);
+  r: var(--track-width);
+  fill: var(--fill-color);
+} */

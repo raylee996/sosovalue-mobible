@@ -1,0 +1,11 @@
+<svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <g id="Group">
+    <g id="Vector">
+      <path d="M11 1.5H16V6.5" fill="currentColor"/>
+      <path d="M11 1.5H16V6.5" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <path id="Vector_2" d="M16 1.5L7.66666 9.83333" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Vector_3" d="M14.3333 14V14.8333C14.3333 15.7542 13.5875 16.5 12.6667 16.5H2.66667C1.74583 16.5 1 15.7542 1 14.8333V4.83333C1 3.9125 1.74583 3.16667 2.66667 3.16667H3.5" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

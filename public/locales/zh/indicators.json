@@ -1,0 +1,16 @@
+{
+  "Daily": "每日",
+  "Weekly": "每周",
+  "Monthly": "每月",
+  "Yearly": "每年",
+  "Charts": "图表",
+  "Excel": "数据表",
+  "Chart mode supports comparing 2 indexes.": "线型图支持比较2个指数。",
+  "Excel mode supports comparing 5 indexes.": "表格视图支持比较5个指数。",
+  "Please select at least one indicator！": "请至少选择一个指标！",
+  "Relevance": "相关性",
+  "Selected": "已选择",
+  "Time range": "时间范围",
+  "Export": "导出",
+  "Tndicators-tip": "请在左侧选择要显示的指数。"
+}

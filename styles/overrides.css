@@ -1,0 +1,17 @@
+.footer-swiper-transition-linear .swiper-wrapper{
+    transition-timing-function: linear;
+}
+.home-center-swiper .swiper-pagination {
+    text-align: left;
+    bottom: 16px;
+    padding-left: 16px;
+}
+.home-center-swiper .swiper-pagination-bullet {
+    background-color: #fff;
+}
+
+.tgme_widget_login.large button.tgme_widget_login_button {
+	opcity:0;
+	cursor: pointer;
+    background:red
+}

@@ -1,0 +1,16 @@
+{
+    "Daily": "毎日",
+    "Weekly": "毎週",
+    "Monthly": "毎月",
+    "Yearly": "毎年",
+    "Charts": "チャート",
+    "Excel": "エクセル",
+    "Relevance": "関連性",
+    "Selected": "選択済み",
+    "Time range": "期間",
+    "Export": "エクスポート",
+    "Chart mode supports comparing 2 indexes.": "チャートモードでは2つの指標を比較できます。",
+    "Excel mode supports comparing 5 indexes.": "エクセルモードでは5つの指標を比較できます。",
+    "Please select at least one indicator！": "少なくとも1つの指標を選択してください！",
+    "Tndicators-tip": "左側に表示するインデックスを選択してください。"
+}

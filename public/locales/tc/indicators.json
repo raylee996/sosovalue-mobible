@@ -1,0 +1,16 @@
+{
+  "Daily": "每日",
+  "Weekly": "每週",
+  "Monthly": "每月",
+  "Yearly": "每年",
+  "Charts": "圖表",
+  "Excel": "數據表",
+  "Chart mode supports comparing 2 indexes.": "線型圖支持比較2個指數。",
+  "Excel mode supports comparing 5 indexes.": "表格視圖支持比較5個指數。",
+  "Please select at least one indicator！": "請至少選擇一個指標！",
+  "Relevance": "相關性",
+  "Selected": "已選擇",
+  "Time range": "時間範圍",
+  "Export": "導出",
+  "Tndicators-tip": "請在左側選擇要顯示的指數。"
+}
