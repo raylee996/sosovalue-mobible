@@ -40,6 +40,7 @@
           try {
             window.parent.postMessage(JSON.stringify({eventType: 'iframe_will_reload'}), '*');
           } catch (e) {}
+          alert(1)
           location.reload();
         } else {
           receiveEvent(dataParsed.eventType, dataParsed.eventData);
