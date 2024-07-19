@@ -3,8 +3,7 @@ import { NextPageContext } from "next";
 import Error, { ErrorProps } from "next/error";
 
 const CustomErrorComponent = ({ statusCode }: ErrorProps) => {
-  console.log('statusCode', statusCode)
-  return <Error statusCode={statusCode} />;
+  return <Error statusCode={statusCode} title={`+${statusCode}+`} />;
 };
 
 CustomErrorComponent.getInitialProps = async (contextData: NextPageContext) => {
