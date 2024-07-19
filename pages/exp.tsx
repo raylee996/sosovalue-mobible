@@ -394,13 +394,15 @@ const Exp = () => {
   };
   useEffect(() => {
     allInitHandler();
-    if (!user && !getToken()) {
+  }, [user]);
+  useEffect(() => {
+    if (!user && !getToken() && online && !requestTimeoutFlag && manualRetryFlag) {
       // setLoading(false);
       authModal?.openSignupModal(() => () => {
         router.back();
       });
     }
-  }, [user]);
+  }, [user, online, requestTimeoutFlag, manualRetryFlag]);
   useTelegramStartParam({
     searchKey: INVITE_CODE_KEY,
     onReceive: (value) => {

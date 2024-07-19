@@ -259,6 +259,7 @@ const Portfolio = () => {
   const isDisableDrag = sortCode !== Sort.None;
 
   const {
+    online,
     manualRetryFlag,
     setManualRetryFlag,
     onRequestTimeout,
@@ -430,12 +431,14 @@ const Portfolio = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (!user && !getToken()) {
+    if (!user && !getToken() && online && !requestTimeoutFlag && manualRetryFlag) {
       // setLoading(false);
       authModal?.openSignupModal(() => () => {
         router.back();
       });
     }
+  }, [user, online, requestTimeoutFlag, manualRetryFlag]);
+  useEffect(() => {
     if (user) {
       const pairs = getUserCollectedPairsCache()
       if (pairs) {
