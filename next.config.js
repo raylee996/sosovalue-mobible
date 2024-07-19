@@ -17,7 +17,10 @@ const withPWA = require("next-pwa")({
     font: '',
     image: '',
     video: ''
-  }
+  },
+  additionalManifestEntries: [
+    {url: '/offline', revision: null},
+  ]
 });
 
 // ANALYZE=true npm run build
