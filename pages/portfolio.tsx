@@ -54,6 +54,7 @@ import { getToken, getUserCollectedPairsCache, setUserCollectedPairsCache } from
 import ArrowIcon from 'components/icons/arrow-down.svg'
 import { useMemoizedFn, useUpdateEffect } from "ahooks";
 import { useRouter } from "next/router";
+import { useNetwork } from "hooks/useNetwork";
 
 type ListItemProps = {
   isDisableDrag: boolean;
@@ -257,9 +258,9 @@ const Portfolio = () => {
 
   const [sortCode, setSortCode] = useState<Sort>(Sort.None);
   const isDisableDrag = sortCode !== Sort.None;
-
+  
+  const { online } = useNetwork();
   const {
-    online,
     manualRetryFlag,
     setManualRetryFlag,
     onRequestTimeout,

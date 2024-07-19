@@ -61,6 +61,7 @@ import useRequestError from "hooks/useRequestError";
 import Retry from "components/layout/Retry";
 import { InternetContext } from "store/InternetContext";
 import { useThemeStore } from "store/useThemeStore";
+import { useNetwork } from "hooks/useNetwork";
 
 dayjs.extend(duration);
 dayjs.extend(isoWeek);
@@ -258,8 +259,8 @@ const Exp = () => {
       timerRef.current = null;
     }
   };
+  const { online } = useNetwork();
   const {
-    online,
     onRequestTimeout,
     requestTimeoutFlag,
     manualRetryFlag,
