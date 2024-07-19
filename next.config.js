@@ -21,7 +21,7 @@ const withPWA = require("next-pwa")({
   additionalManifestEntries: [
     {url: '/offline', revision: null},
   ],
-  clientsClaim: true
+  skipWaiting: true,
 });
 
 // ANALYZE=true npm run build
