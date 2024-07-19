@@ -38,7 +38,7 @@ import dayjs from "dayjs";
 import duration from "dayjs/plugin/duration";
 import isoWeek from "dayjs/plugin/isoWeek";
 import utc from "dayjs/plugin/utc";
-import { copyText, getOffsetPageTop, parseUA } from "helper/tools";
+import { copyText, getOffsetPageTop, isBrowser, parseUA } from "helper/tools";
 import useNotistack from "hooks/useNotistack";
 import CheckAnimate from "components/base/CheckAnimate";
 import { CheckCircle, Trophy } from "@phosphor-icons/react";
@@ -502,7 +502,9 @@ const Exp = () => {
 
   const isFullH = !online || requestTimeoutFlag || !manualRetryFlag;
 
-  alert(JSON.stringify([user, !getToken(), online, !requestTimeoutFlag, manualRetryFlag]))
+  if (isBrowser) {
+    alert(JSON.stringify([user, !getToken(), online, !requestTimeoutFlag, manualRetryFlag]))
+  } 
 
   return (
     <NavigateWrap theme="dark" isFullH={isFullH}>
