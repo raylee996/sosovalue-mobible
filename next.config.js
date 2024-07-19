@@ -20,7 +20,8 @@ const withPWA = require("next-pwa")({
   },
   additionalManifestEntries: [
     {url: '/offline', revision: null},
-  ]
+  ],
+  clientsClaim: true
 });
 
 // ANALYZE=true npm run build
