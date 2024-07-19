@@ -49,6 +49,7 @@ export default function Retry({
     if (!online) {
       // 断网后必须点击retry按钮原页面才能重新展示
       setManualRetryFlag?.(false);
+      console.log('caches', caches.keys())
     }
   }, [online]);
 
