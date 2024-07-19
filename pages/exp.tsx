@@ -61,7 +61,6 @@ import useRequestError from "hooks/useRequestError";
 import Retry from "components/layout/Retry";
 import { InternetContext } from "store/InternetContext";
 import { useThemeStore } from "store/useThemeStore";
-import { useNetwork } from "hooks/useNetwork";
 
 dayjs.extend(duration);
 dayjs.extend(isoWeek);
@@ -259,8 +258,8 @@ const Exp = () => {
       timerRef.current = null;
     }
   };
-  const { online } = useNetwork();
   const {
+    online,
     onRequestTimeout,
     requestTimeoutFlag,
     manualRetryFlag,
@@ -397,14 +396,13 @@ const Exp = () => {
     allInitHandler();
   }, [user]);
   useEffect(() => {
-    if (!user && !getToken() && online && !requestTimeoutFlag && manualRetryFlag) {
-      alert(1)
+    if (!user && !getToken() && navigator.onLine && !requestTimeoutFlag && manualRetryFlag) {
       // setLoading(false);
       authModal?.openSignupModal(() => () => {
         router.back();
       });
     }
-  }, [user, online, requestTimeoutFlag, manualRetryFlag]);
+  }, [user, requestTimeoutFlag, manualRetryFlag]);
   useTelegramStartParam({
     searchKey: INVITE_CODE_KEY,
     onReceive: (value) => {
@@ -501,10 +499,6 @@ const Exp = () => {
   }
 
   const isFullH = !online || requestTimeoutFlag || !manualRetryFlag;
-
-  if (isBrowser) {
-    alert(JSON.stringify([user, !getToken(), online, !requestTimeoutFlag, manualRetryFlag]))
-  } 
 
   return (
     <NavigateWrap theme="dark" isFullH={isFullH}>

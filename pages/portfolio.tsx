@@ -54,7 +54,6 @@ import { getToken, getUserCollectedPairsCache, setUserCollectedPairsCache } from
 import ArrowIcon from 'components/icons/arrow-down.svg'
 import { useMemoizedFn, useUpdateEffect } from "ahooks";
 import { useRouter } from "next/router";
-import { useNetwork } from "hooks/useNetwork";
 
 type ListItemProps = {
   isDisableDrag: boolean;
@@ -258,8 +257,7 @@ const Portfolio = () => {
 
   const [sortCode, setSortCode] = useState<Sort>(Sort.None);
   const isDisableDrag = sortCode !== Sort.None;
-  
-  const { online } = useNetwork();
+
   const {
     manualRetryFlag,
     setManualRetryFlag,
@@ -432,14 +430,13 @@ const Portfolio = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (!user && !getToken() && online && !requestTimeoutFlag && manualRetryFlag) {
+    if (!user && !getToken() && navigator.onLine && !requestTimeoutFlag && manualRetryFlag) {
       // setLoading(false);
-      alert(1)
       authModal?.openSignupModal(() => () => {
         router.back();
       });
     }
-  }, [user, online, requestTimeoutFlag, manualRetryFlag]);
+  }, [user, requestTimeoutFlag, manualRetryFlag]);
   useEffect(() => {
     if (user) {
       const pairs = getUserCollectedPairsCache()
