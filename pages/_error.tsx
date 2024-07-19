@@ -1,10 +1,13 @@
 import * as Sentry from "@sentry/nextjs";
 import Offline from "components/layout/Offline";
+import { useNetwork } from "hooks/useNetwork";
 import { NextPageContext } from "next";
 import Error, { ErrorProps } from "next/error";
 
 const CustomErrorComponent = ({ statusCode }: ErrorProps) => {
-  if (navigator && !navigator.onLine) {
+  const {online} = useNetwork();
+
+  if (!online) {
     return <Offline />
   }
 
