@@ -502,6 +502,8 @@ const Exp = () => {
 
   const isFullH = !online || requestTimeoutFlag || !manualRetryFlag;
 
+  alert(JSON.stringify([user, !getToken(), online, !requestTimeoutFlag, manualRetryFlag]))
+
   return (
     <NavigateWrap theme="dark" isFullH={isFullH}>
       <NetworkTips />
