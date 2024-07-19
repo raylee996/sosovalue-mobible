@@ -19,7 +19,7 @@ const withPWA = require("next-pwa")({
     video: ''
   },
   additionalManifestEntries: [
-    {url: '/offline', revision: null},
+    {url: '/_offline', revision: null},
   ],
   skipWaiting: true,
 });
