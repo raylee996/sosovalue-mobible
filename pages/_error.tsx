@@ -1,9 +1,18 @@
 import * as Sentry from "@sentry/nextjs";
+import { useNetwork } from "hooks/useNetwork";
 import { NextPageContext } from "next";
 import Error, { ErrorProps } from "next/error";
+import { useEffect } from "react";
 
 const CustomErrorComponent = ({ statusCode }: ErrorProps) => {
-  return <Error statusCode={statusCode} title={`+${statusCode}+`} />;
+  const {online} = useNetwork();
+
+  useEffect(() => {
+    alert(online)
+  }, [])
+  console.log('online', online)
+
+  return <Error statusCode={statusCode} />;
 };
 
 CustomErrorComponent.getInitialProps = async (contextData: NextPageContext) => {
