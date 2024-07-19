@@ -11,7 +11,9 @@ const withPWA = require("next-pwa")({
   dest: "public",
   disable: process.env.NODE_ENV === "development",
   reloadOnOnline: false,
-  additionalManifestEntries: ['/_offline']
+  additionalManifestEntries: [
+    {url: '/_offline', revision: null},
+  ]
 });
 
 // ANALYZE=true npm run build
