@@ -433,6 +433,7 @@ const Portfolio = () => {
   useEffect(() => {
     if (!user && !getToken() && online && !requestTimeoutFlag && manualRetryFlag) {
       // setLoading(false);
+      alert(1)
       authModal?.openSignupModal(() => () => {
         router.back();
       });

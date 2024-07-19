@@ -397,6 +397,7 @@ const Exp = () => {
   }, [user]);
   useEffect(() => {
     if (!user && !getToken() && online && !requestTimeoutFlag && manualRetryFlag) {
+      alert(1)
       // setLoading(false);
       authModal?.openSignupModal(() => () => {
         router.back();
