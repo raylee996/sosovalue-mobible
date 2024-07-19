@@ -5,12 +5,9 @@ import Error, { ErrorProps } from "next/error";
 import { useEffect } from "react";
 
 const CustomErrorComponent = ({ statusCode }: ErrorProps) => {
-  const {online} = useNetwork();
-
   useEffect(() => {
-    alert(online)
+    alert(navigator.onLine)
   }, [])
-  console.log('online', online)
 
   return <Error statusCode={statusCode} />;
 };
