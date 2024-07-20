@@ -135,7 +135,7 @@ const Navigate = () => {
             `}
           >
             {isActive ? (item.activeIcon || item.icon) : item.icon}
-            <span className="text-[10px] leading-3">{item.name}</span>
+            <span className="text-[10px] leading-3">{item.name}asdasdas</span>
           </ButtonBase>
         )
       })}
