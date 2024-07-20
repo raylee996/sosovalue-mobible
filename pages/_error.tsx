@@ -6,6 +6,8 @@ import Error, { ErrorProps } from "next/error";
 
 const CustomErrorComponent = ({ statusCode }: ErrorProps) => {
   const {online} = useNetwork();
+  
+  console.log('online', online)
 
   if (!online) {
     return <Offline />
