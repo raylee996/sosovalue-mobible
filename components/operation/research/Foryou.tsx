@@ -159,7 +159,7 @@ const Foryou = ({ categoryConfig, categoryChange }: Props) => {
     <div className="flex-1 h-0 overflow-y-auto" ref={listDivRef}>
       <div className="flex justify-between items-center p-4">
         <span className="text-lg font-bold text-primary-900-White">
-          {t("For You")}
+          {t("For You")}213123
         </span>
       </div>
       <HotNews createExportData={createExportData} selectPost={(news)=>{setHotPost(news);trackNewsStart(news.id)}} />
