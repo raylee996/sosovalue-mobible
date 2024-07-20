@@ -6,10 +6,10 @@ import Error, { ErrorProps } from "next/error";
 
 const CustomErrorComponent = ({ statusCode }: ErrorProps) => {
   const {online} = useNetwork();
-  
-  console.log('online', online)
 
-  if (!online) {
+  console.error('online', online)
+
+  if (!online || (navigator && !navigator.onLine)) {
     return <Offline />
   }
 
