@@ -3,19 +3,14 @@ import Offline from "components/layout/Offline";
 import { useNetwork } from "hooks/useNetwork";
 import { NextPageContext } from "next";
 import Error, { ErrorProps } from "next/error";
+import { Router, useRouter } from "next/router";
 import { useState } from "react";
 
 const CustomErrorComponent = ({ statusCode }: ErrorProps) => {
-  const [isOnline, setIsOnline] = useState(true);
-
-  console.error('online', isOnline, navigator?.onLine)
+  const router = useRouter();
 
   if (!navigator?.onLine) {
-    setIsOnline(false);
-  }
-
-  if (!isOnline) {
-    return <Offline />
+    router.push('/_offline');
   }
 
   return <Error statusCode={statusCode} />;
