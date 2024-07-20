@@ -5,15 +5,17 @@ import Retry from "components/layout/Retry";
 import { useNetwork } from "hooks/useNetwork";
 import { useRouter } from "next/router";
 
-// next-pwa提供的离线fallback
-// 实测在无网状态下安卓能稳定出现，ios下不稳定出现，有时会被浏览器默认断网提示接管
 const Offline = () => {
   const {online} = useNetwork();
   const router = useRouter();
 
   const retryHandler = () => {
     if (online) {
-      router.reload();
+      if (router.pathname.includes('_offline')) {
+        router.push('/')
+      } else {
+        router.reload();
+      }
     }
   }
 
