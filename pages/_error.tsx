@@ -11,6 +11,7 @@ const CustomErrorComponent = ({ statusCode }: ErrorProps) => {
 
   if (!navigator?.onLine) {
     router.push('/_offline');
+    return;
   }
 
   return <Error statusCode={statusCode} />;
