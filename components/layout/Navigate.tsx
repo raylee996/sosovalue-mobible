@@ -38,6 +38,9 @@ const Navigate = () => {
   const { emitClickHome, emitClickResearch } = useNavigateEvent();
   const { t } = useTranslation("common");
 
+  // 触发离线时缓存页面执行useTranslation
+  useNetwork();
+
   const router = useRouter();
   const isResearch =
     router.pathname === "/research" && !authModal?.showLoginSignUp;
@@ -135,7 +138,7 @@ const Navigate = () => {
             `}
           >
             {isActive ? (item.activeIcon || item.icon) : item.icon}
-            <span className="text-[10px] leading-3">{item.name}asdasdas</span>
+            <span className="text-[10px] leading-3">{item.name}</span>
           </ButtonBase>
         )
       })}
