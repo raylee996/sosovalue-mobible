@@ -38,9 +38,6 @@ const Navigate = () => {
   const { emitClickHome, emitClickResearch } = useNavigateEvent();
   const { t } = useTranslation("common");
 
-  // 触发离线时缓存页面执行useTranslation
-  useNetwork();
-
   const router = useRouter();
   const isResearch =
     router.pathname === "/research" && !authModal?.showLoginSignUp;
