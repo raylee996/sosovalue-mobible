@@ -4,6 +4,7 @@ import Header from "components/header";
 import Retry from "components/layout/Retry";
 import { useNetwork } from "hooks/useNetwork";
 import { useRouter } from "next/router";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const Offline = () => {
   const {online} = useNetwork();
@@ -36,3 +37,12 @@ const Offline = () => {
 }
 
 export default Offline
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+      // Will be passed to the page component as props
+    },
+  };
+}
